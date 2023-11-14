@@ -21,6 +21,7 @@ This is an API for a social network web application where users can share their 
 
 ## Acceptance Criteria
 
+```md
 GIVEN a social network API
 WHEN I enter the command to invoke the application
 THEN my server is started and the Mongoose models are synced to the MongoDB database
@@ -30,6 +31,7 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete users and thoughts in my database
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+```
 
 ## Technologies
 
@@ -44,6 +46,13 @@ Insomnia
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) License used for this project - MIT 
 
 ## Demo
+* [UserRoutes](https://drive.google.com/file/d/1_joX6WV-A4t36f6KTTfy0TYCXyg9eBkc/view)
+* ![mockup](./utils/UserRoutes.gif)
+* [ThoughtsRoutes](https://drive.google.com/file/d/1Vljvp2EOR9N-Wk7oe2rDCNaAy2SAtfnw/view)
+* ![mockup](./utils/ThoughtsRoutes.gif)
+* [Reaction&FriendRoutes](https://drive.google.com/file/d/1DYQGP8bM9aMzss07iV1SwGzF8CeqRQ2Q/view)
+* ![mockup](./utils/Reaction&friendRoutes.gif)
 
 
 ## Author
+(Tan Fei) Please go to my github https://github.com/tanfei0704/challenge-15-SocialNetwork-API for more details.
